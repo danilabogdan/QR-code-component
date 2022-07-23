@@ -88,3 +88,22 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+/* Utility clases */
+
+.text-primary {
+    color:var(--clr-dark-blue);
+}
+
+.text-secondary {
+    color: var(--clr-light-grey);
+}
+
+
+.text-heading {
+    font-size:2rem;
+}
+
+.text-paragraph {
+    font-size: var(--fs-p);
+}
