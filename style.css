@@ -107,3 +107,54 @@ select {
 .text-paragraph {
     font-size: var(--fs-p);
 }
+
+
+
+/* style */
+
+body {
+    background-color: var(--clr-light-grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    background-color:var(--clr-white);
+    width: 20rem;
+    height: 31.25rem;
+    border-radius: 10px;
+    box-shadow: gray 0px 2px 20px 0px;
+}
+
+.container img {
+    width: 285px;
+    margin: 17.5px;
+    border-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+.container h2 {
+    font-family: "Outfit", sans-serif;
+    line-height: 1.5;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: var(--clr-dark-blue);
+    padding-left: 2rem;
+    width: 20ch;
+    text-align: center;
+}
+
+.container p {
+    padding-left: 2rem;
+    color: var(--clr-grayish-blue);
+    margin-top: 1.3rem;
+    text-align: center;
+    width: 34ch;
+}
+
+.credits {
+    margin-top: 4rem;
+}
